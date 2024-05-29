@@ -3,6 +3,18 @@
 avr로 만드는 세탁기 제작 프로젝트
 
 
+## 핵심 기술
+![image](https://github.com/tina908/Washing-Machine-Project/assets/68736697/c76d93a3-4c0b-4b9c-89d4-215560c716d4)
+
+> 인터럽트에 의한 시스템 제어   
+> Switch를 활용하여 시스템 동작 시작, 일시정지, 확인 기능 구현
+> LCD 및 Motor등의 제어를 담당하며, 전체 시스템 통괄
+
+
+> ADC를 활용한 세탁 모드 변경
+> 저항 값을 기준으로 셀프, 표준, 강력, 스피드 모드로 구분
+> I2C 통신과 ADC를 활용하는 시스템 설계
+
 ## 개발 환경 및 장비
 ![image](https://github.com/tina908/Washing-Machine-Project/assets/68736697/53e1427f-2385-49a0-8b45-b7053b6db1c8)
 
@@ -15,20 +27,6 @@ avr로 만드는 세탁기 제작 프로젝트
 
 ## 회로도
 ![image](https://github.com/tina908/Washing-Machine-Project/assets/68736697/b0a2b387-cfbf-4930-9e79-fb2a9970a1a8)
-
-
-
-## 핵심 기술
-![image](https://github.com/tina908/Washing-Machine-Project/assets/68736697/c76d93a3-4c0b-4b9c-89d4-215560c716d4)
-
-> 인터럽트에 의한 시스템 제어   
-> Switch를 활용하여 시스템 동작 시작, 일시정지, 확인 기능 구현
-> LCD 및 Motor등의 제어를 담당하며, 전체 시스템 통괄
-
-
-> ADC를 활용한 세탁 모드 변경
-> 저항 값을 기준으로 셀프, 표준, 강력, 스피드 모드로 구분
-> I2C 통신과 ADC를 활용하는 시스템 설계
 
 
 ## 세탁기 내부
